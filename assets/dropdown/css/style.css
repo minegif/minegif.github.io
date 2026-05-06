@@ -17,6 +17,13 @@
   padding: 20px;
 }
 
+scroll-box {
+  display: block;      /* Shows the element */
+  max-height: 200px;   /* Limits the height so it can scroll */
+  overflow-y: auto;    /* Adds scrollbar only if content overflows */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 
 .icon {
   margin-left: 5px; 
